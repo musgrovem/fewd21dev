@@ -1,0 +1,19 @@
+body {
+background: #FFE;
+border: 1px solid black;
+}
+
+/* A comment here */
+
+h2 span { 
+	color:#887;
+}
+
+
+img {
+border-style: black
+}
+
+a { color:#900;
+}
+
