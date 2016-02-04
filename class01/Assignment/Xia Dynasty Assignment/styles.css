@@ -1,29 +1,46 @@
 
 
- body {font-family: sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 30px;
-  border-bottom: 5px solid #222222;
-  border-top: 5px solid #222222;
-  padding: 50px;
-  background: #F6F6F6;
+head {font-weight:bold;
+
+}
+
+ body {border-bottom: 5px solid black;
+      border-top: 5px solid black;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+img { 
+   border:1px solid black;
+  
 }
 
 p {
-    
+    font-family: Georgia;
+    color:05080C;
 }
 
 
 h2 {
 	font:sans-serif;
 	font-weight: bold;
-
+  text-transform: uppercase;
 }
 
 h3 {
+  text-indent:50px;
 	font:sans-serif;
 	font-weight:bold;
+}
+
+
+table {
+    width: 100px;
+    padding: 25px;
+    border: 25px blue;
+    margin: 25px;
 }
 
 #toc {
@@ -46,7 +63,29 @@ h3 {
   float: right;
   padding: 0 0 3px 2px;
 }
+
 #toc span {
   float: left;
   padding: 0 2px 3px 0;
+}
+
+.red {
+  color:red;
+  font-size: 80%;
+}
+
+.subtopic {
+  padding-left:50px;
+}
+
+li {
+  font-weight: bold;
+}
+
+#font {
+  font-family:"Georgia";
+}
+
+ul {
+  list-style:none;
 }
